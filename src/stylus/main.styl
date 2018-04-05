@@ -1,0 +1,16 @@
+@import '../../node_modules/vuetify/src/stylus/settings/_colors.styl'
+
+
+import colors from 'vuetify/es5/util/colors'
+
+Vue.use(Vuetify, {
+  theme: {
+    primary: colors.red.darken4,
+    secondary: colors.grey.darken1,
+    accent: colors.shades.black,
+    error: colors.red.accent3,
+    info: colors.green.darken4,
+  }
+})
+
+@import "../../node_modules/vuetify/src/stylus"
